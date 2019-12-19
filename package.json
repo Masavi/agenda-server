@@ -1,0 +1,22 @@
+{
+  "name": "cher-ami",
+  "version": "0.0.1",
+  "description": "express server as a mailing delivery service using agenda and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "masavi",
+  "license": "MIT",
+  "dependencies": {
+    "agenda": "^2.3.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongo-db": "^2.0.4",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.1"
+  }
+}
